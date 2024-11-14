@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: "Source Code Pro", monospace; 
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: rgb(39, 37, 37);
+    font-size: 20px;
+}
+nav li {
+    display: inline-block;
+}
+nav li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 18px;
+}
+nav li a:hover {
+    background-color: rgb(63, 62, 62);
+}
+.menu {
+    position: absolute;
+    box-shadow: 0 0 2px black;
+    display: none;
+    background-color: rgb(39, 37, 37) ;
+}
+.menu a {
+    display: block;
+    color: w;
+}
+.lista:hover .menu{
+    display: block;
+}
+
+.fundo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    text-align: center;
+}
